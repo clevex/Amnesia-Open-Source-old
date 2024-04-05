@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Градиент -->
+    <gradient
+        android:startColor="#AAAFBF"
+        android:endColor="#77939298"
+        android:angle="45"/>
+
+    <!-- Обводка -->
+    <stroke
+        android:width="2dp"
+        android:color="#4BFFFFFF" /> <!-- Цвет и толщина обводки -->
+
+    <!-- Углы и скругление -->
+    <corners android:radius="8dp" />
+
+</shape>

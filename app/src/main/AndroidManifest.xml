@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orca.xarg">
+
+  <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+  <uses-permission android:name="ACCESS_SUPERUSER" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/xero"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/xero"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.orca.xarg.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xero.login.LoginActivity" />
+        <activity android:name="com.orca.xarg.MainActivity" />
+        <service
+            android:name="jokhio.downloader.DownloadService"
+            android:enabled="true" />
+        <service android:name="com.orca.xarg.Overlay" />
+        <service android:name="com.orca.xarg.Toggle" />
+        <service android:name="com.orca.xarg.FloatLogo" />
+
+    </application>
+
+</manifest>

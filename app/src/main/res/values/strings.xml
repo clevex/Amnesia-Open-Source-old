@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AMNESIA INJECTOR</string>
+    <string name="start_cheat">Start Cheat</string>
+    <string name="stop_cheat">Stop Cheat</string>
+    <string name="root">Root</string>
+    <string name="non_root">Non Root</string>
+    <string name="root_nonroot">Execute Mode?</string>
+    <string name="pubg_version">PUBGM Version?</string>
+    <string name="oparate_by">Opareting System?</string>
+    <string name="_32_bit">32 Bit</string>
+    <string name="_64_bit">64 Bit</string>
+    <string name="hehe">WELCOME TO AMNESIA</string>
+    <string name="appv">JOIN TG || @AMNESIA | Apk Version 0.5</string>
+        <string name="esp_aimbot_rangetext_text">200</string>
+    <string name="esp_aimbot_distancetext_text">200</string>
+    <string name="esp_aimbot_recoiltext_text">50</string>
+    <string name="esp_aimbot_bulletspeedtext_text">600</string>
+    <string name="distance_aimbot">Distance Aimbot</string>
+    <string name="aimbot_pov_circle">Aimbot Pov Circle</string>
+    <string name="recoil_compesation">Recoil Compesation</string>
+    <string name="aiming_bullet_speed">Aiming Bullet Speed</string>
+</resources>

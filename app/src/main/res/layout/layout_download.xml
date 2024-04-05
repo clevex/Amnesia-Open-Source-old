@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#232323"
+		android:gravity="center_vertical|center_horizontal">
+
+
+		<LinearLayout
+			android:id="@+id/virtual"
+			android:layout_width="189dp"
+			android:layout_height="196dp"
+			android:layout_marginTop="30dp"
+			android:background="@drawable/softback"
+			android:orientation="vertical"
+			android:src="@drawable/radius"
+			android:visibility="visible">
+
+		</LinearLayout>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:text="DOWNLOAD ANTIBAN"
+			android:textColor="@color/white"
+			android:id="@+id/btn"
+			android:background="@drawable/red_fon"
+			android:layout_margin="33dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
